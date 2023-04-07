@@ -1,0 +1,95 @@
+:root{
+    --body_bg:#c5c5c5;
+    --primary:#8132a3;
+    --light:#eeeeee;
+    --white:#ffffff;
+    --black:#000000;
+}
+body{
+    background-color: var(--body_bg);
+    display: flex;
+    justify-content: center;
+}
+#card{
+    width: 250px;
+    height: 350px;
+    background-color: var(--white);
+    border-radius: 2%;
+    margin-top: 111px;
+    overflow: hidden;
+    padding: 0px;
+}
+#primary{
+    background-color: var(--primary);
+    width: 250px;
+    height: 10px;
+}
+
+.photo{
+    display: flex;
+    justify-content: center;
+    background-color: var(--body_bg);
+    border-radius: 50%;
+    height: 110px;
+    width: 110px; 
+    margin: auto;
+    margin-top: 25px;
+    box-shadow: 0 1px 4px 0 rgb(0 0 0 / 10%), 0 1px 15px 0 rgb(0 0 0 / 10%);
+    border-style: solid;
+    border-color: var(--white);
+    overflow: hidden;
+}
+.head{
+    background-color: var(--white);
+    border-radius: 50%;
+    height: 50px;
+    width: 50px; 
+    margin: auto;
+    margin-top: 20px;
+    position: absolute;
+}
+.body{
+    background-color: var(--white);
+    height: 80px;
+    width: 80px;
+    margin-top: 65px;
+    border-radius: 50%;
+}
+#info{
+    display: block;
+    justify-content: center;
+    margin-top: 20px;
+}
+label{
+font-size: 12px;
+margin-left: 20px;
+font-family: openSans;
+font-weight: bold;
+}
+input{
+    font-size: 14px;
+    border: 0;
+    outline: 0;
+    width: 210px;
+    margin-left: 18px;
+    font-family: openSans;
+    font-weight: 600;
+}
+::placeholder{
+    font-size: 12px;
+    color: var(--black);
+    font-family: openSans;
+}
+hr{
+    width: 210px;
+    background-color: var(--light);
+    border: 0;
+    height: 1px;
+    
+}
+@font-face {
+    font-family: openSans;
+    src: url(font/OpenSans-Regular.ttf);
+}
+
+
